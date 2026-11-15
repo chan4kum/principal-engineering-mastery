@@ -12,7 +12,7 @@ import sys
 import time
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "guided"))
-from explorer import local_api  # noqa: E402
+from explorer import local_api, resolve_fixture  # noqa: E402
 
 SCENARIOS = ("ok", "dns", "connect", "tls", "read", "http")
 
@@ -40,11 +40,11 @@ def fail(kind: str, trace: list[dict[str, object]], status: int | None = None) -
 
 
 def unavailable_name() -> str:
-    raise socket.gaierror(socket.EAI_NONAME, "injected resolver miss")
+    return resolve_fixture("missing.test", 0)[0]
 
 
 def resolve_loopback() -> str:
-    return socket.getaddrinfo("localhost", None, socket.AF_INET, socket.SOCK_STREAM)[0][4][0]
+    return resolve_fixture("localhost", 0)[0]
 
 
 def probe(

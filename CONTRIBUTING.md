@@ -8,7 +8,8 @@ Use the [lesson](templates/lesson.md) and [lab](templates/lab.md) templates. Pre
 
 - [ ] Source ID, prerequisites and next link are accurate.
 - [ ] Normal and failure runs are reproducible, bounded and clean up.
-- [ ] Calculations can be reproduced from the given values.
+- [ ] Calculations are derived from the given values and checked by an executable fixture.
+- [ ] Primary standards or implementation documentation support each mechanism. Note protocol version, implementation scope, observation boundary and exceptions. Recheck version-sensitive claims before changing the tested runtime.
 - [ ] Answers are collapsed and a learner can attempt the task independently.
 - [ ] New material is linked from its index and coverage reflects what ships.
 - [ ] Run `uv run ruff check .` and `uv run pytest`. Record Linux-only checks and the host used.

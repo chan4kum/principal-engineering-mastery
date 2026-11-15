@@ -59,6 +59,10 @@ Follow a request from serialization and link delivery through transport, TLS, HT
 
 Reproduce all labs, pass both project suites and score at least 80% on fresh applied questions. Diagnose one unfamiliar failure and pass a delayed re-test. Bring a request timeline showing the last verified hop, the failure evidence and the first successful recovery probe.
 
+## Evidence and scope
+
+The A02 IDs and source titles were cross-checked against the detailed roadmap and V3 audited index. Each lesson links to the relevant standard or implementation documentation, reviewed in November 2026. The examples label live observations and simplified models. Use L1–L4 for the actual request path and container behavior. The supported Python baseline is 3.12.
+
 ## Protocol references
 
 - Transport framing and sequence behavior. [TCP RFC 9293](https://www.rfc-editor.org/rfc/rfc9293.html)

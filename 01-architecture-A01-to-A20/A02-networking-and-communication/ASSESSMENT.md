@@ -30,3 +30,22 @@ Work without AI or the lesson pages. Record the last verified boundary and what 
 </details>
 
 For the unfamiliar case, have a reviewer combine one readable response failure and one pre-HTTP fault in the local fixture. Diagnose the earlier boundary first, change one setting, and rerun before diagnosing the second. On a later day, repeat with changed MTU, DNS or timing inputs.
+
+## Scenario from the audited curriculum
+
+An LLM token stream disconnects at about 60 seconds through an ingress. Draw the path from DNS and TCP through TLS, the ingress and the backend, then back to the client. Ask one checkpoint at a time.
+
+1. Did DNS, TCP and TLS succeed on the affected connection?
+2. Did the ingress forward headers and the first token? Which clocks measure that?
+3. Is 60 seconds measured from request start or from the last upstream byte? Compare a frequent-token stream and a silent upstream.
+4. Do upstream writes occur earlier than downstream arrivals, suggesting buffering?
+5. After the disconnect, does the backend observe cancellation and stop producing?
+
+<details>
+<summary>Diagnosis and principal interview</summary>
+
+A successful handshake and observed first chunk move investigation to the streaming path. A gap measured from the last upstream byte is consistent with an upstream read inactivity limit. A fixed cutoff during steady bytes suggests an overall deadline or a different hop's timer. If upstream writes precede downstream batches, inspect buffering and client behavior. Confirm cancellation at the application because client closure alone does not establish that generation stopped.
+
+**Why can adding HTTP retries increase both load and outages?** A failure under saturation can cause extra attempts before the original work has stopped. Independent retry layers multiply that traffic and synchronized backoff can align bursts. Bound attempts and elapsed time, coordinate retry ownership, and retry only where semantics and capacity permit. Check whether a retried stream can resume without duplicate effects.
+
+</details>

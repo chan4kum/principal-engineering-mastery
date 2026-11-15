@@ -5,6 +5,7 @@ from contextlib import contextmanager
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import socket
+from socketserver import TCPServer
 from threading import Thread
 import time
 from collections.abc import Iterator
@@ -24,9 +25,23 @@ class Handler(BaseHTTPRequestHandler):
         pass
 
 
+class LocalServer(ThreadingHTTPServer):
+    def server_bind(self) -> None:
+        # HTTPServer's default implementation performs a potentially slow reverse lookup.
+        TCPServer.server_bind(self)
+        self.server_name = "localhost"
+        self.server_port = self.server_address[1]
+
+
+def resolve_fixture(name: str, port: int) -> tuple[str, int]:
+    if name != "localhost":
+        raise socket.gaierror(socket.EAI_NONAME, "no record in the fixture")
+    return "127.0.0.1", port
+
+
 @contextmanager
 def local_api(handler: type[BaseHTTPRequestHandler] = Handler) -> Iterator[int]:
-    with ThreadingHTTPServer(("127.0.0.1", 0), handler) as server:
+    with LocalServer(("127.0.0.1", 0), handler) as server:
         worker = Thread(target=server.serve_forever, kwargs={"poll_interval": 0.025}, daemon=True)
         worker.start()
         try:
@@ -42,8 +57,7 @@ def elapsed_ms(start: float) -> float:
 
 def explore(port: int, path: str) -> dict[str, object]:
     start = time.monotonic()
-    records = socket.getaddrinfo("localhost", port, socket.AF_INET, socket.SOCK_STREAM)
-    address = records[0][4]
+    address = resolve_fixture("localhost", port)
     dns = elapsed_ms(start)
     start = time.monotonic()
     with socket.create_connection(address, timeout=2) as connection:
