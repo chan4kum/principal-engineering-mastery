@@ -44,15 +44,7 @@ jobs:
           after=$(sed -n 's/^cpu.stat after: .*nr_throttled \([0-9]*\),.*/\1/p' cpu.log)
           test "$after" -gt "$before"
           docker run --rm "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py | grep 'allocated=16 MiB'
-          id=$(docker create "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py --break)
-          trap 'docker rm -f "$id" >/dev/null' EXIT
-          docker start "$id"
-          status=$(docker wait "$id")
-          docker logs "$id"
-          oom=$(docker inspect --format '{{.State.OOMKilled}}' "$id")
-          printf 'Container exit status: %s, OOMKilled: %s\n' "$status" "$oom"
-          test "$status" = 137
-          test "$oom" = true
+          docker run --rm "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim sh /lab/verify_oom.sh
   networking-labs:
     runs-on: ubuntu-latest
     strategy:
