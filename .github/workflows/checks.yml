@@ -84,3 +84,8 @@ jobs:
           python3 "$lab" L2 | grep -F "'backlog': 10"
           python3 "$lab" L3 | grep -F "'completed': 48"
           python3 "$lab" L4 | grep -F 'sliding window'
+  integration-labs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: bash 01-architecture-A01-to-A20/A07-application-integration-arch/labs/streams.sh

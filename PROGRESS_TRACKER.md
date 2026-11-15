@@ -292,3 +292,41 @@ Keep machine-specific traces, file paths and identifiers in your local copy.
 - [ ] [A06.30](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.30.md) · clock skew
 - [ ] [A06.31](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.31.md) · distributed ID/Snowflake
 - [ ] [A06.32](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.32.md) · failure injection and linearizability test design
+
+## A07 evidence
+
+- [ ] Reproduce worker replay, Redis Streams, saga and contract labs
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A07.01](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.01.md) · separation of concerns
+- [ ] [A07.02](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.02.md) · coupling/cohesion
+- [ ] [A07.03](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.03.md) · modules and packages
+- [ ] [A07.04](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.04.md) · interfaces and contracts
+- [ ] [A07.05](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.05.md) · state boundaries
+- [ ] [A07.06](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.06.md) · monolith vs services
+- [ ] [A07.07](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.07.md) · layered architecture
+- [ ] [A07.08](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.08.md) · hexagonal ports/adapters
+- [ ] [A07.09](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.09.md) · domain-driven design bounded contexts
+- [ ] [A07.10](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.10.md) · modular monolith
+- [ ] [A07.11](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.11.md) · microservices trade-offs
+- [ ] [A07.12](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.12.md) · API gateway vs service
+- [ ] [A07.13](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.13.md) · synchronous API vs queue vs stream
+- [ ] [A07.14](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.14.md) · event contracts
+- [ ] [A07.15](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.15.md) · CQRS
+- [ ] [A07.16](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.16.md) · event sourcing
+- [ ] [A07.17](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.17.md) · transactional outbox
+- [ ] [A07.18](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.18.md) · CDC
+- [ ] [A07.19](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.19.md) · saga compensation
+- [ ] [A07.20](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.20.md) · Kafka event lifecycle
+- [ ] [A07.21](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.21.md) · workflow engines vs event choreography
+- [ ] [A07.22](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.22.md) · DAG orchestration
+- [ ] [A07.23](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.23.md) · job scheduler
+- [ ] [A07.24](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.24.md) · SKIP LOCKED queues
+- [ ] [A07.25](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.25.md) · rule engines
+- [ ] [A07.26](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.26.md) · replay and poison messages
+- [ ] [A07.27](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.27.md) · schema registry
+- [ ] [A07.28](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.28.md) · backward compatible events
+- [ ] [A07.29](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.29.md) · change-safe database migrations
+- [ ] [A07.30](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.30.md) · tenancy boundaries
+- [ ] [A07.31](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.31.md) · architecture decision records and decomposition cost

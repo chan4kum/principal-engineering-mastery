@@ -52,3 +52,5 @@ Prerequisite [A05 exit gate](../A05-scalability-caching-performance/README.md#pr
 - [Applied assessment](ASSESSMENT.md)
 
 Reproduce all labs and both project acceptance suites. Score at least 80% on a fresh set of questions, diagnose one unfamiliar failure, and repeat after a delay. Trace a partition, election and recovery, then demonstrate how a stale lease holder is rejected at the resource.
+
+Continue to [A07 · Application & Integration Architecture](../A07-application-integration-arch/README.md) when the prerequisite stage gates are met.
