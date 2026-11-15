@@ -9,15 +9,15 @@ jobs:
         os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
       - run: uv sync --python 3.12 --locked --extra math
       - run: uv run --locked --extra math ruff check .
       - run: uv run --locked --extra math pytest -q
   linux-labs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Process, quota and memory observations
         shell: bash
         run: |
@@ -27,8 +27,12 @@ jobs:
           docker run --rm "${common[@]}" python:3.12-slim python /lab/process_anatomy.py | tee process.log
           grep -q 'PPid:' process.log
           docker run --rm "${common[@]}" python:3.12-slim python /lab/process_anatomy.py --break | grep 'returncode: -15'
+          docker run --rm "${common[@]}" --cpus=1 python:3.12-slim python /lab/cpu_io.py wait
+          docker run --rm "${common[@]}" --cpus=1 python:3.12-slim python /lab/cpu_io.py cpu
           docker run --rm "${common[@]}" --cpus=.25 python:3.12-slim python /lab/cpu_io.py cpu | tee cpu.log
-          grep -q 'nr_throttled' cpu.log
+          before=$(sed -n 's/^cpu.stat before: .*nr_throttled \([0-9]*\),.*/\1/p' cpu.log)
+          after=$(sed -n 's/^cpu.stat after: .*nr_throttled \([0-9]*\),.*/\1/p' cpu.log)
+          test "$after" -gt "$before"
           docker run --rm "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py | grep 'allocated=16 MiB'
           id=$(docker create "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py --break)
           trap 'docker rm -f "$id" >/dev/null' EXIT
