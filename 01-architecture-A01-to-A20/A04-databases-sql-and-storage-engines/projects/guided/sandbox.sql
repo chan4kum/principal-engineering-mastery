@@ -1,0 +1,10 @@
+CREATE TABLE accounts(id int PRIMARY KEY, balance int NOT NULL CHECK (balance >= 0));
+INSERT INTO accounts VALUES (1,50),(2,10);
+BEGIN;
+UPDATE accounts SET balance=balance-7 WHERE id=1;
+UPDATE accounts SET balance=balance+7 WHERE id=2;
+COMMIT;
+BEGIN;
+UPDATE accounts SET balance=balance-12 WHERE id=1;
+ROLLBACK;
+CREATE VIEW transfer_totals AS SELECT sum(balance) AS balance FROM accounts;

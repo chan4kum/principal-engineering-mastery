@@ -62,3 +62,12 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: bash 01-architecture-A01-to-A20/A02-networking-and-communication/labs/run.sh "${{ matrix.lab }}"
+  storage-labs:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario: [L1, L2, L3, L4, guided, ledger]
+    steps:
+      - uses: actions/checkout@v7
+      - run: bash 01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/labs/run.sh "${{ matrix.scenario }}"

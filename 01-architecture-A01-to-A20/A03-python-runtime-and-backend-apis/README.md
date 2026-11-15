@@ -62,3 +62,5 @@ Prerequisite [A02 exit gate](../A02-networking-and-communication/README.md#pract
 - [Applied assessment](ASSESSMENT.md)
 
 Score at least 80% on fresh questions, reproduce each lab, and pass both project suites. Diagnose an unfamiliar failure and pass a delayed re-test. Be able to dry-run coroutine suspension, sibling cancellation, and a multi-request state trace.
+
+Continue to [A04 · Databases, SQL & Storage Engines](../A04-databases-sql-and-storage-engines/README.md) after the exit gate.

@@ -168,3 +168,47 @@ Keep machine-specific traces, file paths and identifiers in your local copy.
 - [ ] [A03.40](01-architecture-A01-to-A20/A03-python-runtime-and-backend-apis/lessons/A03.40.md) · streaming and event cancellation
 - [ ] [A03.41](01-architecture-A01-to-A20/A03-python-runtime-and-backend-apis/lessons/A03.41.md) · multi-tenant context propagation
 - [ ] [A03.42](01-architecture-A01-to-A20/A03-python-runtime-and-backend-apis/lessons/A03.42.md) · secure client libraries
+
+## A04 evidence
+
+- [ ] Reproduce all four PostgreSQL labs
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A04.01](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.01.md) · bytes and pages
+- [ ] [A04.02](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.02.md) · record layouts
+- [ ] [A04.03](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.03.md) · relational tables, keys and constraints
+- [ ] [A04.04](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.04.md) · normalization
+- [ ] [A04.05](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.05.md) · SQL operations
+- [ ] [A04.06](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.06.md) · query plans
+- [ ] [A04.07](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.07.md) · disk seek and random vs sequential I/O
+- [ ] [A04.08](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.08.md) · indexes
+- [ ] [A04.09](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.09.md) · B-tree and B+tree intuition
+- [ ] [A04.10](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.10.md) · ACID and transactions
+- [ ] [A04.11](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.11.md) · locks
+- [ ] [A04.12](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.12.md) · isolation levels
+- [ ] [A04.13](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.13.md) · lost updates/phantoms
+- [ ] [A04.14](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.14.md) · MVCC
+- [ ] [A04.15](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.15.md) · WAL/redo/undo concepts
+- [ ] [A04.16](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.16.md) · checkpoints and crash recovery
+- [ ] [A04.17](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.17.md) · backup and point-in-time restore
+- [ ] [A04.18](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.18.md) · schema migration and online indexing
+- [ ] [A04.19](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.19.md) · keyset vs offset pagination
+- [ ] [A04.20](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.20.md) · soft deletion and retention
+- [ ] [A04.21](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.21.md) · document vs key-value vs graph vs columnar stores
+- [ ] [A04.22](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.22.md) · PostgreSQL query analysis
+- [ ] [A04.23](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.23.md) · file-backed dictionaries
+- [ ] [A04.24](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.24.md) · binary encodings
+- [ ] [A04.25](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.25.md) · append-only and log-structured storage
+- [ ] [A04.26](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.26.md) · Bitcask
+- [ ] [A04.27](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.27.md) · LSM memtable/WAL/SSTable
+- [ ] [A04.28](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.28.md) · Bloom/sparse indexes
+- [ ] [A04.29](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.29.md) · compaction and write amplification
+- [ ] [A04.30](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.30.md) · range and hash partitioning
+- [ ] [A04.31](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.31.md) · shard maps
+- [ ] [A04.32](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.32.md) · object store metadata
+- [ ] [A04.33](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.33.md) · consistency and replication
+- [ ] [A04.34](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.34.md) · hot/cold archival
+- [ ] [A04.35](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.35.md) · checksums
+- [ ] [A04.36](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.36.md) · online evolution
+- [ ] [A04.37](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.37.md) · data privacy deletions
