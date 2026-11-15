@@ -11,9 +11,19 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
-      - run: uv sync --python 3.12 --locked --extra math
-      - run: uv run --locked --extra math ruff check .
-      - run: uv run --locked --extra math pytest -q
+      - run: uv sync --python 3.12 --locked --extra math --extra api
+      - run: uv run --locked --extra math --extra api ruff check .
+      - run: uv run --locked --extra math --extra api pytest -q
+      - name: Observe FastAPI scheduling and Python allocation labs
+        shell: bash
+        run: |
+          set -euo pipefail
+          lab=01-architecture-A01-to-A20/A03-python-runtime-and-backend-apis/labs
+          uv run --locked --extra api python "$lab/behavior.py" | tee behavior.log
+          grep -F 'blocking=False, elapsed=' behavior.log
+          grep -F 'blocking=True, elapsed=' behavior.log
+          uv run --locked python "$lab/profiling.py" | grep -F 'retained_chunks=8 '
+          uv run --locked python "$lab/profiling.py" --break | grep -F 'retained_chunks=120 '
   linux-labs:
     runs-on: ubuntu-latest
     steps:

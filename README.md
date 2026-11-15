@@ -1,19 +1,20 @@
 # Principal Engineering Mastery
 
-![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A02-1f6feb)
+![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A03-1f6feb)
 ![Labs](https://img.shields.io/badge/labs-local--first-147d64)
 ![Python](https://img.shields.io/badge/python-3.12%2B-345f9c)
 ![License](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY--SA%204.0-555)
 
 **Understand → Calculate → Implement → Break → Repair → Rebuild → Teach → Retain**
 
-A practice-first curriculum for software, cloud and AI systems. Start with a diagnostic, then connect program behavior to OS evidence. Each A01 and A02 lesson includes a trace, a runnable example, and a controlled alternative.
+A practice-first curriculum for software, cloud and AI systems. Start with a diagnostic, then connect program behavior to OS evidence. Each A01–A03 lesson includes a trace, a runnable example, and a controlled alternative.
 
 | Start here | What you'll do |
 | --- | --- |
 | [Stage 0 diagnosis](00-stage-0-diagnostic/README.md) | Check five prerequisite skills and log gaps |
 | [A01 systems and OS](01-architecture-A01-to-A20/A01-computer-systems-and-os/README.md) | Work through 36 lessons, four labs and two projects |
 | [A02 networking](01-architecture-A01-to-A20/A02-networking-and-communication/README.md) | Trace requests through DNS, transport, TLS and HTTP |
+| [A03 Python runtime and backend APIs](01-architecture-A01-to-A20/A03-python-runtime-and-backend-apis/README.md) | Trace execution, concurrency and API behavior |
 | [Curriculum roadmap](ROADMAP.md#curriculum-index) | Inspect later tracks and their planned scope |
 | [Teaching contract](TEACHING_CONTRACT.md) | Pair with a tutor and preserve independent assessment |
 | [Progress tracker](PROGRESS_TRACKER.md) | Record evidence and schedule retrieval practice |
@@ -27,7 +28,7 @@ git clone https://github.com/chan4kum/principal-engineering-mastery.git
 cd principal-engineering-mastery
 uv sync --locked
 uv run python 00-stage-0-diagnostic/diagnose.py
-uv run pytest -q
+uv run --locked --extra math --extra api pytest -q
 ```
 
 Use Linux for real /proc and cgroup evidence. macOS supports the portable exercises and can run the Linux labs through a local Docker engine. The diagnostic and Phase A01 require no paid service. See the lab instructions for container limits and cleanup.
@@ -61,7 +62,7 @@ flowchart TD
     class s0 available
 ```
 
-Stage 1 includes A01. Stage 2 starts with A02. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
+Stage 1 includes A01. Stage 2 includes A02 and A03. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
 
 ### Curriculum by track
 

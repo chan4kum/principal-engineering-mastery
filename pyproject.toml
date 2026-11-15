@@ -20,6 +20,12 @@ line-length = 100
 
 [project.optional-dependencies]
 math = ["numpy>=2,<3"]
+api = [
+    "fastapi<1",
+    "httpx<1",
+    "pydantic>=2,<3",
+    "uvicorn<1",
+]
 
 [tool.ruff.lint]
 select = ["E4", "E7", "E9", "F"]
