@@ -36,10 +36,13 @@ jobs:
           docker run --rm "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py | grep 'allocated=16 MiB'
           id=$(docker create "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py --break)
           trap 'docker rm -f "$id" >/dev/null' EXIT
-          status=0
-          docker start -a "$id" || status=$?
+          docker start "$id"
+          status=$(docker wait "$id")
+          docker logs "$id"
+          oom=$(docker inspect --format '{{.State.OOMKilled}}' "$id")
+          printf 'Container exit status: %s, OOMKilled: %s\n' "$status" "$oom"
           test "$status" = 137
-          test "$(docker inspect --format '{{.State.OOMKilled}}' "$id")" = true
+          test "$oom" = true
   networking-labs:
     runs-on: ubuntu-latest
     strategy:
