@@ -330,3 +330,40 @@ Keep machine-specific traces, file paths and identifiers in your local copy.
 - [ ] [A07.29](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.29.md) · change-safe database migrations
 - [ ] [A07.30](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.30.md) · tenancy boundaries
 - [ ] [A07.31](01-architecture-A01-to-A20/A07-application-integration-arch/lessons/A07.31.md) · architecture decision records and decomposition cost
+
+## A08 evidence
+
+- [ ] Reproduce telemetry, SLO, backup and game-day labs
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A08.01](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.01.md) · availability vs durability
+- [ ] [A08.02](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.02.md) · SLIs/SLOs/SLAs
+- [ ] [A08.03](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.03.md) · reliability budget
+- [ ] [A08.04](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.04.md) · success and failure definition
+- [ ] [A08.05](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.05.md) · metrics/logs/traces
+- [ ] [A08.06](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.06.md) · structured correlation IDs
+- [ ] [A08.07](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.07.md) · timeout hierarchy
+- [ ] [A08.08](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.08.md) · retry/backoff/jitter
+- [ ] [A08.09](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.09.md) · circuit breaker
+- [ ] [A08.10](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.10.md) · bulkhead
+- [ ] [A08.11](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.11.md) · fallback
+- [ ] [A08.12](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.12.md) · backpressure and admission control
+- [ ] [A08.13](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.13.md) · health checks
+- [ ] [A08.14](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.14.md) · graceful shutdown
+- [ ] [A08.15](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.15.md) · error budgets
+- [ ] [A08.16](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.16.md) · alerts and runbooks
+- [ ] [A08.17](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.17.md) · on-call triage
+- [ ] [A08.18](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.18.md) · backups, restore and disaster recovery
+- [ ] [A08.19](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.19.md) · RPO and RTO
+- [ ] [A08.20](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.20.md) · fault injection and chaos tests
+- [ ] [A08.21](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.21.md) · cascading failures
+- [ ] [A08.22](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.22.md) · retry storms
+- [ ] [A08.23](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.23.md) · failure domains
+- [ ] [A08.24](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.24.md) · single point of failure
+- [ ] [A08.25](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.25.md) · multi-region active-passive vs active-active
+- [ ] [A08.26](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.26.md) · distributed tracing and sampling
+- [ ] [A08.27](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.27.md) · data migration safety
+- [ ] [A08.28](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.28.md) · canary, blue-green and shadow traffic
+- [ ] [A08.29](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.29.md) · cost/reliability trade-offs
+- [ ] [A08.30](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.30.md) · abuse detection

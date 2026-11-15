@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
-      - run: uv sync --python 3.12 --locked --extra math --extra api
-      - run: uv run --locked --extra math --extra api ruff check .
-      - run: uv run --locked --extra math --extra api pytest -q
+      - run: uv sync --python 3.12 --locked --extra math --extra api --extra telemetry
+      - run: uv run --locked --extra math --extra api --extra telemetry ruff check .
+      - run: uv run --locked --extra math --extra api --extra telemetry pytest -q
       - name: Observe FastAPI scheduling and Python allocation labs
         shell: bash
         run: |

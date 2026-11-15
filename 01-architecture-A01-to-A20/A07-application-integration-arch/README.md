@@ -51,3 +51,5 @@ Prerequisite [A06 exit gate](../A06-distributed-systems-coordination/README.md#p
 - [Applied assessment](ASSESSMENT.md)
 
 Reproduce all labs and both project acceptance suites. Score at least 80% on a fresh set of questions, diagnose one unfamiliar failure, and repeat after a delay. Defend an integration boundary and its failure recovery with a sequence diagram, including both publication replay and consumer deduplication.
+
+Continue to [A08 · Reliability, Operations & SRE](../A08-reliability-operations-and-sre/README.md) when the prerequisite stage gates are met.

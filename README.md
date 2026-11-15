@@ -1,13 +1,13 @@
 # Principal Engineering Mastery
 
-![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A07-1f6feb)
+![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A08-1f6feb)
 ![Labs](https://img.shields.io/badge/labs-local--first-147d64)
 ![Python](https://img.shields.io/badge/python-3.12%2B-345f9c)
 ![License](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY--SA%204.0-555)
 
 **Understand → Calculate → Implement → Break → Repair → Rebuild → Teach → Retain**
 
-A practice-first curriculum for software, cloud and AI systems. Start with a diagnostic, then connect program behavior to OS evidence. Each A01–A07 lesson includes a trace, a runnable example, and a controlled alternative.
+A practice-first curriculum for software, cloud and AI systems. Start with a diagnostic, then connect program behavior to OS evidence. Each A01–A08 lesson includes a trace, a runnable example, and a controlled alternative.
 
 | Start here | What you'll do |
 | --- | --- |
@@ -19,6 +19,7 @@ A practice-first curriculum for software, cloud and AI systems. Start with a dia
 | [A05 scalability and performance](01-architecture-A01-to-A20/A05-scalability-caching-performance/README.md) | Estimate capacity and test cache, queue and admission behavior |
 | [A06 distributed systems](01-architecture-A01-to-A20/A06-distributed-systems-coordination/README.md) | Trace partitions, quorum, retries and fencing |
 | [A07 application integration](01-architecture-A01-to-A20/A07-application-integration-arch/README.md) | Verify contracts, queues, sagas and outbox replay |
+| [A08 reliability and SRE](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/README.md) | Measure reliability and rehearse fault recovery |
 | [Curriculum roadmap](ROADMAP.md#curriculum-index) | Inspect later tracks and their planned scope |
 | [Teaching contract](TEACHING_CONTRACT.md) | Pair with a tutor and preserve independent assessment |
 | [Progress tracker](PROGRESS_TRACKER.md) | Record evidence and schedule retrieval practice |
@@ -32,7 +33,7 @@ git clone https://github.com/chan4kum/principal-engineering-mastery.git
 cd principal-engineering-mastery
 uv sync --locked
 uv run python 00-stage-0-diagnostic/diagnose.py
-uv run --locked --extra math --extra api pytest -q
+uv run --locked --extra math --extra api --extra telemetry pytest -q
 ```
 
 Use Linux for real /proc and cgroup evidence. macOS supports the portable exercises and can run the Linux labs through a local Docker engine. The diagnostic and Phase A01 require no paid service. See the lab instructions for container limits and cleanup.
@@ -66,7 +67,7 @@ flowchart TD
     class s0 available
 ```
 
-Stage 1 includes A01. Stage 2 includes A02–A04. Stage 4 currently includes A05–A07. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
+Stage 1 includes A01. Stage 2 includes A02–A04. Stage 4 currently includes A05–A08. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
 
 ### Curriculum by track
 
