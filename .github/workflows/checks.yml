@@ -40,3 +40,12 @@ jobs:
           docker start -a "$id" || status=$?
           test "$status" = 137
           test "$(docker inspect --format '{{.State.OOMKilled}}' "$id")" = true
+  networking-labs:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        lab: [L1, L2, L3, L4]
+    steps:
+      - uses: actions/checkout@v7
+      - run: bash 01-architecture-A01-to-A20/A02-networking-and-communication/labs/run.sh "${{ matrix.lab }}"

@@ -54,3 +54,5 @@ How do instructions execute, and why do finite resources constrain software? Bui
 - [Applied assessment](ASSESSMENT.md)
 
 Reproduce all labs, pass both project suites, diagnose one unfamiliar failure, and score at least 80% on a fresh applied assessment. On a later day, retest with changed inputs and explain a syscall trace plus a resource failure. Record evidence in the [progress tracker](../../PROGRESS_TRACKER.md).
+
+Continue to [A02 · Networking & Communication](../A02-networking-and-communication/README.md) after the exit gate.
