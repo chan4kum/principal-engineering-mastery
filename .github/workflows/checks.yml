@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
-      - run: uv sync --python 3.12 --locked --extra math --extra api --extra telemetry
-      - run: uv run --locked --extra math --extra api --extra telemetry ruff check .
-      - run: uv run --locked --extra math --extra api --extra telemetry pytest -q
+      - run: uv sync --python 3.12 --locked --all-extras
+      - run: uv run --locked --all-extras ruff check .
+      - run: uv run --locked --all-extras pytest -q
       - name: Observe FastAPI scheduling and Python allocation labs
         shell: bash
         run: |
@@ -81,3 +81,32 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: bash 01-architecture-A01-to-A20/A07-application-integration-arch/labs/streams.sh
+
+  kubernetes-labs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario: [L1, L2, platform, L4]
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install verified Kubernetes lab tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          tmp=$(mktemp -d)
+          cd "$tmp"
+          curl -fsSLO https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64
+          curl -fsSLO https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64.sha256sum
+          printf '%s  kind-linux-amd64\n' "$(awk '{print $1}' kind-linux-amd64.sha256sum)" | sha256sum -c -
+          curl -fsSLO https://dl.k8s.io/release/v1.37.0/bin/linux/amd64/kubectl
+          curl -fsSLO https://dl.k8s.io/release/v1.37.0/bin/linux/amd64/kubectl.sha256
+          printf '%s  kubectl\n' "$(cat kubectl.sha256)" | sha256sum -c -
+          mkdir -p "$RUNNER_TEMP/pem-kube-bin"
+          install -m 755 kind-linux-amd64 "$RUNNER_TEMP/pem-kube-bin/kind"
+          install -m 755 kubectl "$RUNNER_TEMP/pem-kube-bin/kubectl"
+          echo "$RUNNER_TEMP/pem-kube-bin" >> "$GITHUB_PATH"
+          cd /
+          rm -rf "$tmp"
+      - run: bash 01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/labs/run.sh "${{ matrix.scenario }}"

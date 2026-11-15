@@ -52,3 +52,5 @@ Prerequisite [A07 exit gate](../A07-application-integration-arch/README.md#pract
 - [Applied assessment](ASSESSMENT.md)
 
 Reproduce all labs and both project acceptance suites. Score at least 80% on a fresh set of questions, diagnose one unfamiliar failure, and repeat after a delay. Construct an error budget, incident timeline and mitigation choice using measured evidence.
+
+Continue to [A09 · Cloud, Containers, Kubernetes & Platform Engineering](../A09-cloud-containers-k8s-devsecops/README.md) when the prerequisite stage gates are met.

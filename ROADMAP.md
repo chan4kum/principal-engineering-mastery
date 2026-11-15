@@ -70,7 +70,7 @@ AIC01-AIC03: prompt engineering, vibe/specification coding and loop/agentic codi
 
 ## Curriculum index
 
-Stage 0 and A01–A08 have material in this edition. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
+Stage 0 and A01–A13 have material in this edition. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
 
 ### Architecture
 
@@ -84,11 +84,11 @@ Stage 0 and A01–A08 have material in this edition. The remaining rows identify
 | A06 | Distributed Systems & Coordination | [Available](01-architecture-A01-to-A20/A06-distributed-systems-coordination/README.md) |
 | A07 | Application & Integration Architecture | [Available](01-architecture-A01-to-A20/A07-application-integration-arch/README.md) |
 | A08 | Reliability, Operations & SRE | [Available](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/README.md) |
-| A09 | Cloud, Containers, Kubernetes & Platform Engineering | Planned |
-| A10 | ML Foundations, AI Math & MLOps | Planned |
-| A11 | Transformers, LLM Internals & Inference | Planned |
-| A12 | Search, RAG & Knowledge Systems | Planned |
-| A13 | Agentic AI, MCP & Workflow Orchestration | Planned |
+| A09 | Cloud, Containers, Kubernetes & Platform Engineering | [Available](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/README.md) |
+| A10 | ML Foundations, AI Math & MLOps | [Available](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/README.md) |
+| A11 | Transformers, LLM Internals & Inference | [Available](01-architecture-A01-to-A20/A11-transformers-llm-internals/README.md) |
+| A12 | Search, RAG & Knowledge Systems | [Available](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/README.md) |
+| A13 | Agentic AI, MCP & Workflow Orchestration | [Available](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/README.md) |
 | A14 | Advanced LLMOps, Evaluation & Safety | Planned |
 | A15 | Security, Privacy & Global-Scale Architecture | Planned |
 | A16 | System Design & Product-Company Interviews | Planned |

@@ -367,3 +367,210 @@ Keep machine-specific traces, file paths and identifiers in your local copy.
 - [ ] [A08.28](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.28.md) · canary, blue-green and shadow traffic
 - [ ] [A08.29](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.29.md) · cost/reliability trade-offs
 - [ ] [A08.30](01-architecture-A01-to-A20/A08-reliability-operations-and-sre/lessons/A08.30.md) · abuse detection
+
+## A09 evidence
+
+- [ ] Reproduce all four labs for Cloud, Containers, Kubernetes & Platform Engineering
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A09.01](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.01.md) · Linux processes/namespaces/cgroups
+- [ ] [A09.02](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.02.md) · filesystems
+- [ ] [A09.03](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.03.md) · image vs container
+- [ ] [A09.04](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.04.md) · Dockerfile layers and cache
+- [ ] [A09.05](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.05.md) · image registries
+- [ ] [A09.06](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.06.md) · virtual networks
+- [ ] [A09.07](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.07.md) · IAM principles
+- [ ] [A09.08](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.08.md) · DNS and TLS
+- [ ] [A09.09](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.09.md) · Docker multi-stage/non-root
+- [ ] [A09.10](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.10.md) · Compose and persistent volumes
+- [ ] [A09.11](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.11.md) · CI/CD
+- [ ] [A09.12](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.12.md) · GitOps
+- [ ] [A09.13](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.13.md) · IaC/Terraform
+- [ ] [A09.14](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.14.md) · VPC, subnets, routes, NAT and endpoints
+- [ ] [A09.15](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.15.md) · IAM, KMS, secrets
+- [ ] [A09.16](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.16.md) · EKS/AKS
+- [ ] [A09.17](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.17.md) · pod, deployment, service and ingress/gateway
+- [ ] [A09.18](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.18.md) · scheduling, requests/limits and probes
+- [ ] [A09.19](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.19.md) · HPA
+- [ ] [A09.20](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.20.md) · workloads and PVC
+- [ ] [A09.21](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.21.md) · network policies
+- [ ] [A09.22](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.22.md) · CKAD workflows and debugging
+- [ ] [A09.23](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.23.md) · CNI/CoreDNS/kube-proxy
+- [ ] [A09.24](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.24.md) · resource quotas
+- [ ] [A09.25](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.25.md) · pod disruption budgets
+- [ ] [A09.26](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.26.md) · rolling/canary deploy
+- [ ] [A09.27](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.27.md) · workload identity
+- [ ] [A09.28](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.28.md) · software supply chain SBOM/scanning
+- [ ] [A09.29](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.29.md) · admission controls
+- [ ] [A09.30](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.30.md) · GPU scheduling and topology
+- [ ] [A09.31](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.31.md) · node autoscalers
+- [ ] [A09.32](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.32.md) · AWS Bedrock/SageMaker integration
+- [ ] [A09.33](01-architecture-A01-to-A20/A09-cloud-containers-k8s-devsecops/lessons/A09.33.md) · FinOps and multi-AZ resilience
+
+## A10 evidence
+
+- [ ] Reproduce all four labs for ML Foundations, AI Math & MLOps
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A10.01](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.01.md) · sets, logic and functions
+- [ ] [A10.02](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.02.md) · vectors/matrices
+- [ ] [A10.03](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.03.md) · derivatives and gradients
+- [ ] [A10.04](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.04.md) · probability distributions
+- [ ] [A10.05](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.05.md) · conditional probability and Bayes
+- [ ] [A10.06](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.06.md) · expectation/variance
+- [ ] [A10.07](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.07.md) · train/validation/test separation
+- [ ] [A10.08](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.08.md) · linear regression and losses
+- [ ] [A10.09](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.09.md) · dataset quality and leakage
+- [ ] [A10.10](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.10.md) · sampling and stratification
+- [ ] [A10.11](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.11.md) · classification/regression metrics
+- [ ] [A10.12](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.12.md) · bias/variance
+- [ ] [A10.13](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.13.md) · gradient descent
+- [ ] [A10.14](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.14.md) · optimizer/learning rates
+- [ ] [A10.15](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.15.md) · feature engineering
+- [ ] [A10.16](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.16.md) · experiment tracking
+- [ ] [A10.17](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.17.md) · datasets/versioning DVC
+- [ ] [A10.18](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.18.md) · model registry
+- [ ] [A10.19](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.19.md) · model serving
+- [ ] [A10.20](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.20.md) · drift
+- [ ] [A10.21](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.21.md) · calibration
+- [ ] [A10.22](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.22.md) · monitoring
+- [ ] [A10.23](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.23.md) · MLflow and pipelines
+- [ ] [A10.24](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.24.md) · CNN/NLP and representation learning
+- [ ] [A10.25](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.25.md) · transformers fundamentals
+- [ ] [A10.26](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.26.md) · transfer learning
+- [ ] [A10.27](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.27.md) · PCA and SVD
+- [ ] [A10.28](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.28.md) · inference statistics
+- [ ] [A10.29](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.29.md) · uncertainty and significance
+- [ ] [A10.30](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.30.md) · causal vs correlational pitfalls
+- [ ] [A10.31](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.31.md) · responsible ML
+- [ ] [A10.32](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.32.md) · offline/online evaluation
+- [ ] [A10.33](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.33.md) · retraining triggers
+- [ ] [A10.34](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.34.md) · shadow deployments
+- [ ] [A10.35](01-architecture-A01-to-A20/A10-ml-foundations-math-and-mlops/lessons/A10.35.md) · hardware and cost budgets
+
+## A11 evidence
+
+- [ ] Reproduce all four labs for Transformers, LLM Internals & Inference
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A11.01](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.01.md) · tensor shapes
+- [ ] [A11.02](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.02.md) · dot product and matrix multiplication
+- [ ] [A11.03](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.03.md) · softmax, cross entropy and gradients
+- [ ] [A11.04](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.04.md) · tokens and tokenization
+- [ ] [A11.05](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.05.md) · embeddings
+- [ ] [A11.06](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.06.md) · attention Q/K/V
+- [ ] [A11.07](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.07.md) · positional encoding
+- [ ] [A11.08](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.08.md) · residual connections
+- [ ] [A11.09](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.09.md) · normalization
+- [ ] [A11.10](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.10.md) · transformer forward pass
+- [ ] [A11.11](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.11.md) · autoregressive decoding
+- [ ] [A11.12](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.12.md) · logits and sampling
+- [ ] [A11.13](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.13.md) · prefill vs decode
+- [ ] [A11.14](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.14.md) · KV cache and memory math
+- [ ] [A11.15](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.15.md) · GPU memory hierarchy
+- [ ] [A11.16](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.16.md) · TTFT/TPOT/ITL/E2E
+- [ ] [A11.17](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.17.md) · throughput vs goodput
+- [ ] [A11.18](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.18.md) · benchmarking
+- [ ] [A11.19](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.19.md) · vLLM/SGLang engines
+- [ ] [A11.20](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.20.md) · continuous batching
+- [ ] [A11.21](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.21.md) · schedulers, fairness and cancellation
+- [ ] [A11.22](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.22.md) · PagedAttention
+- [ ] [A11.23](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.23.md) · prefix caching
+- [ ] [A11.24](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.24.md) · mixed-length workloads
+- [ ] [A11.25](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.25.md) · BF16/FP8/INT8/4-bit formats
+- [ ] [A11.26](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.26.md) · AWQ/GPTQ/SmoothQuant
+- [ ] [A11.27](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.27.md) · KV quantization
+- [ ] [A11.28](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.28.md) · profiling and roofline
+- [ ] [A11.29](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.29.md) · FlashAttention
+- [ ] [A11.30](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.30.md) · Triton and kernel fusion
+- [ ] [A11.31](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.31.md) · torch.compile and CUDA graphs
+- [ ] [A11.32](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.32.md) · speculative decoding
+- [ ] [A11.33](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.33.md) · MoE routing and parallelism
+- [ ] [A11.34](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.34.md) · TP/PP/DP/CP
+- [ ] [A11.35](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.35.md) · NCCL/NVLink
+- [ ] [A11.36](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.36.md) · disaggregated prefill-decode
+- [ ] [A11.37](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.37.md) · offload and long-context tiers
+- [ ] [A11.38](01-architecture-A01-to-A20/A11-transformers-llm-internals/lessons/A11.38.md) · model routing and serving economics
+
+## A12 evidence
+
+- [ ] Reproduce all four labs for Search, RAG & Knowledge Systems
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A12.01](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.01.md) · documents and tokenization
+- [ ] [A12.02](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.02.md) · normalization
+- [ ] [A12.03](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.03.md) · inverted indexes
+- [ ] [A12.04](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.04.md) · posting lists
+- [ ] [A12.05](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.05.md) · Boolean search
+- [ ] [A12.06](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.06.md) · TF-IDF and BM25
+- [ ] [A12.07](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.07.md) · stopwords
+- [ ] [A12.08](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.08.md) · precision/recall
+- [ ] [A12.09](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.09.md) · embeddings and vector similarity
+- [ ] [A12.10](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.10.md) · document parsing and lineage
+- [ ] [A12.11](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.11.md) · chunking
+- [ ] [A12.12](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.12.md) · chunk overlap
+- [ ] [A12.13](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.13.md) · metadata and ACLs
+- [ ] [A12.14](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.14.md) · hybrid sparse+dense search
+- [ ] [A12.15](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.15.md) · approximate nearest neighbors
+- [ ] [A12.16](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.16.md) · HNSW and index updates
+- [ ] [A12.17](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.17.md) · query rewriting
+- [ ] [A12.18](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.18.md) · reranking and cross encoders
+- [ ] [A12.19](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.19.md) · evidence citations
+- [ ] [A12.20](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.20.md) · retrieval metrics recall@k/MRR/nDCG
+- [ ] [A12.21](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.21.md) · grounding and answer quality
+- [ ] [A12.22](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.22.md) · search index synchronization and deletes
+- [ ] [A12.23](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.23.md) · deduplication
+- [ ] [A12.24](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.24.md) · sharded indexes
+- [ ] [A12.25](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.25.md) · crawler pipelines
+- [ ] [A12.26](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.26.md) · multi-hop retrieval
+- [ ] [A12.27](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.27.md) · structured+graph retrieval
+- [ ] [A12.28](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.28.md) · freshness
+- [ ] [A12.29](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.29.md) · reranking budgets
+- [ ] [A12.30](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.30.md) · tenant authorization at query time
+- [ ] [A12.31](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.31.md) · prompt injection via retrieved data
+- [ ] [A12.32](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.32.md) · large-scale ingestion reliability
+- [ ] [A12.33](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.33.md) · eval drift and human review
+- [ ] [A12.34](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/lessons/A12.34.md) · autocomplete and spell correction
+
+## A13 evidence
+
+- [ ] Reproduce all four labs for Agentic AI, MCP & Workflow Orchestration
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A13.01](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.01.md) · deterministic workflows
+- [ ] [A13.02](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.02.md) · state machines
+- [ ] [A13.03](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.03.md) · function calling
+- [ ] [A13.04](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.04.md) · structured outputs
+- [ ] [A13.05](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.05.md) · tool definitions
+- [ ] [A13.06](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.06.md) · tasks vs agents
+- [ ] [A13.07](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.07.md) · context window and state
+- [ ] [A13.08](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.08.md) · retries and side effects
+- [ ] [A13.09](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.09.md) · LangGraph state/nodes/edges
+- [ ] [A13.10](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.10.md) · tool execution loop
+- [ ] [A13.11](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.11.md) · checkpoints
+- [ ] [A13.12](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.12.md) · resume/replay
+- [ ] [A13.13](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.13.md) · human interrupts
+- [ ] [A13.14](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.14.md) · planning vs execution
+- [ ] [A13.15](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.15.md) · parallel fanout/fanin
+- [ ] [A13.16](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.16.md) · agent memory vs chat history
+- [ ] [A13.17](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.17.md) · MCP host/client/server/tool/resource/prompt
+- [ ] [A13.18](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.18.md) · schema contracts
+- [ ] [A13.19](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.19.md) · authorization and secrets
+- [ ] [A13.20](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.20.md) · idempotent external actions
+- [ ] [A13.21](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.21.md) · multi-agent coordination vs single agent
+- [ ] [A13.22](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.22.md) · bounded autonomy
+- [ ] [A13.23](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.23.md) · escalation/approval
+- [ ] [A13.24](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.24.md) · robust delegation
+- [ ] [A13.25](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.25.md) · long-running durable agents
+- [ ] [A13.26](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.26.md) · trace-level observability
+- [ ] [A13.27](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.27.md) · adversarial tool outputs
+- [ ] [A13.28](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.28.md) · prompt injection and privilege boundaries
+- [ ] [A13.29](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.29.md) · per-agent budgets
+- [ ] [A13.30](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.30.md) · policy enforcement
+- [ ] [A13.31](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.31.md) · evaluation of task success and side effects
+- [ ] [A13.32](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.32.md) · supervision and rollback
