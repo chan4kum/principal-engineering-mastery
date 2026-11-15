@@ -54,3 +54,5 @@ Prerequisite [A04 exit gate](../A04-databases-sql-and-storage-engines/README.md#
 - [Applied assessment](ASSESSMENT.md)
 
 Reproduce all labs and both project acceptance suites. Score at least 80% on a fresh set of questions, diagnose one unfamiliar failure, and repeat after a delay. Size a 200-RPS service with five seconds mean latency and distinguish in-flight population from the amount of compute to provision.
+
+Continue to [A06 · Distributed Systems & Coordination](../A06-distributed-systems-coordination/README.md) when the prerequisite stage gates are met.

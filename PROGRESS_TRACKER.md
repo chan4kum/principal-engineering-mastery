@@ -253,3 +253,42 @@ Keep machine-specific traces, file paths and identifiers in your local copy.
 - [ ] [A05.32](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.32.md) · experiments, benchmarks and capacity envelopes
 - [ ] [A05.33](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.33.md) · failure headroom
 - [ ] [A05.34](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.34.md) · autoscaling interactions
+
+## A06 evidence
+
+- [ ] Reproduce clocks, partition, quorum and fencing labs
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A06.01](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.01.md) · partial failure
+- [ ] [A06.02](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.02.md) · time and clocks
+- [ ] [A06.03](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.03.md) · network partition
+- [ ] [A06.04](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.04.md) · retries and duplicates
+- [ ] [A06.05](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.05.md) · delivery guarantees
+- [ ] [A06.06](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.06.md) · ordering
+- [ ] [A06.07](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.07.md) · monotonic sequence numbers
+- [ ] [A06.08](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.08.md) · safety vs liveness
+- [ ] [A06.09](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.09.md) · failure detection limits
+- [ ] [A06.10](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.10.md) · consistency models
+- [ ] [A06.11](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.11.md) · linearizability vs serializability
+- [ ] [A06.12](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.12.md) · eventual consistency
+- [ ] [A06.13](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.13.md) · leader/follower
+- [ ] [A06.14](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.14.md) · quorums
+- [ ] [A06.15](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.15.md) · CAP limits and PACELC
+- [ ] [A06.16](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.16.md) · Lamport clocks
+- [ ] [A06.17](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.17.md) · vector clocks
+- [ ] [A06.18](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.18.md) · consensus/Raft
+- [ ] [A06.19](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.19.md) · elections, terms and log replication
+- [ ] [A06.20](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.20.md) · distributed locks, leases and fencing
+- [ ] [A06.21](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.21.md) · idempotency and deduplication
+- [ ] [A06.22](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.22.md) · split brain and stale lease holder
+- [ ] [A06.23](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.23.md) · transaction coordination and sagas
+- [ ] [A06.24](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.24.md) · metadata discovery
+- [ ] [A06.25](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.25.md) · gossip and membership
+- [ ] [A06.26](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.26.md) · distributed hash tables
+- [ ] [A06.27](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.27.md) · consistent/rendezvous hashing
+- [ ] [A06.28](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.28.md) · causal consistency
+- [ ] [A06.29](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.29.md) · CRDT overview
+- [ ] [A06.30](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.30.md) · clock skew
+- [ ] [A06.31](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.31.md) · distributed ID/Snowflake
+- [ ] [A06.32](01-architecture-A01-to-A20/A06-distributed-systems-coordination/lessons/A06.32.md) · failure injection and linearizability test design
