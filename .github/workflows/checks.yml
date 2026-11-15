@@ -1,0 +1,38 @@
+name: Curriculum checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --python 3.12 --locked --extra math
+      - run: uv run --locked --extra math ruff check .
+      - run: uv run --locked --extra math pytest -q
+  linux-labs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process, quota and memory observations
+        shell: bash
+        run: |
+          set -euo pipefail
+          lab="$PWD/01-architecture-A01-to-A20/A01-computer-systems-and-os/labs"
+          common=(--network none --pids-limit 32 -v "$lab:/lab:ro")
+          docker run --rm "${common[@]}" python:3.12-slim python /lab/process_anatomy.py | tee process.log
+          grep -q 'PPid:' process.log
+          docker run --rm "${common[@]}" python:3.12-slim python /lab/process_anatomy.py --break | grep 'returncode: -15'
+          docker run --rm "${common[@]}" --cpus=.25 python:3.12-slim python /lab/cpu_io.py cpu | tee cpu.log
+          grep -q 'nr_throttled' cpu.log
+          docker run --rm "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py | grep 'allocated=16 MiB'
+          id=$(docker create "${common[@]}" --memory 64m --memory-swap 64m python:3.12-slim python /lab/memory_pressure.py --break)
+          trap 'docker rm -f "$id" >/dev/null' EXIT
+          status=0
+          docker start -a "$id" || status=$?
+          test "$status" = 137
+          test "$(docker inspect --format '{{.State.OOMKilled}}' "$id")" = true

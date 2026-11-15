@@ -1,0 +1,25 @@
+[project]
+name = "principal-engineering-mastery"
+version = "0.1.0"
+description = "Local systems engineering curriculum and executable experiments"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[project.optional-dependencies]
+math = ["numpy>=2,<3"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
