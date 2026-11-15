@@ -57,3 +57,5 @@ Prerequisite [A03 exit gate](../A03-python-runtime-and-backend-apis/README.md#pr
 - [Applied assessment](ASSESSMENT.md)
 
 Reproduce all labs and both project acceptance suites. Score at least 80% on a fresh set of questions, diagnose one unfamiliar failure, and repeat after a delay. Explain crash recovery and compare B-trees with LSM trees for point reads and sustained writes.
+
+Continue to [A05 · Scalability, Caching & Performance](../A05-scalability-caching-performance/README.md) when the prerequisite stage gates are met.

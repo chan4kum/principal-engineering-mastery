@@ -70,7 +70,7 @@ AIC01-AIC03: prompt engineering, vibe/specification coding and loop/agentic codi
 
 ## Curriculum index
 
-Stage 0 and A01–A04 have material in this edition. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
+Stage 0 and A01–A05 have material in this edition. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
 
 ### Architecture
 
@@ -80,7 +80,7 @@ Stage 0 and A01–A04 have material in this edition. The remaining rows identify
 | A02 | Networking & Communication | [Available](01-architecture-A01-to-A20/A02-networking-and-communication/README.md) |
 | A03 | Python Runtime & Backend API Engineering | [Available](01-architecture-A01-to-A20/A03-python-runtime-and-backend-apis/README.md) |
 | A04 | Databases, SQL & Storage Engines | [Available](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/README.md) |
-| A05 | Scalability, Caching & Performance | Planned |
+| A05 | Scalability, Caching & Performance | [Available](01-architecture-A01-to-A20/A05-scalability-caching-performance/README.md) |
 | A06 | Distributed Systems & Coordination | Planned |
 | A07 | Application & Integration Architecture | Planned |
 | A08 | Reliability, Operations & SRE | Planned |

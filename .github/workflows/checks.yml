@@ -71,3 +71,16 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: bash 01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/labs/run.sh "${{ matrix.scenario }}"
+  performance-labs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: bash 01-architecture-A01-to-A20/A05-scalability-caching-performance/labs/redis.sh
+      - name: Measure bounded cache, queue, load, and limiter experiments
+        run: |
+          set -euo pipefail
+          lab=01-architecture-A01-to-A20/A05-scalability-caching-performance/labs/benchmarks.py
+          python3 "$lab" L1 | grep -F 'fits hot set'
+          python3 "$lab" L2 | grep -F "'backlog': 10"
+          python3 "$lab" L3 | grep -F "'completed': 48"
+          python3 "$lab" L4 | grep -F 'sliding window'

@@ -212,3 +212,44 @@ Keep machine-specific traces, file paths and identifiers in your local copy.
 - [ ] [A04.35](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.35.md) · checksums
 - [ ] [A04.36](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.36.md) · online evolution
 - [ ] [A04.37](01-architecture-A01-to-A20/A04-databases-sql-and-storage-engines/lessons/A04.37.md) · data privacy deletions
+
+## A05 evidence
+
+- [ ] Reproduce cache, queue, load and limiter labs
+- [ ] Pass both project suites
+- [ ] Pass fresh assessment and delayed re-test
+
+- [ ] [A05.01](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.01.md) · time vs throughput
+- [ ] [A05.02](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.02.md) · QPS/RPS/TPS
+- [ ] [A05.03](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.03.md) · mean vs percentiles
+- [ ] [A05.04](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.04.md) · p95/p99 and tail latency
+- [ ] [A05.05](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.05.md) · Little law and assumptions
+- [ ] [A05.06](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.06.md) · utilization and queue build-up
+- [ ] [A05.07](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.07.md) · CPU vs I/O bottlenecks
+- [ ] [A05.08](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.08.md) · back-of-envelope resource units
+- [ ] [A05.09](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.09.md) · horizontal vs vertical scaling
+- [ ] [A05.10](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.10.md) · load balancers and health checks
+- [ ] [A05.11](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.11.md) · Redis caching
+- [ ] [A05.12](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.12.md) · cache-aside/read-through/write-through
+- [ ] [A05.13](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.13.md) · TTL and eviction
+- [ ] [A05.14](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.14.md) · LRU/LFU
+- [ ] [A05.15](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.15.md) · cache invalidation
+- [ ] [A05.16](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.16.md) · cache stampedes and hot keys
+- [ ] [A05.17](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.17.md) · connection pools
+- [ ] [A05.18](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.18.md) · bulkheads
+- [ ] [A05.19](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.19.md) · batching
+- [ ] [A05.20](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.20.md) · worker queues
+- [ ] [A05.21](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.21.md) · rate limiter windows, token bucket/leaky bucket
+- [ ] [A05.22](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.22.md) · load shedding
+- [ ] [A05.23](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.23.md) · single-flight request coalescing
+- [ ] [A05.24](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.24.md) · split hot keys
+- [ ] [A05.25](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.25.md) · consistency under invalidation
+- [ ] [A05.26](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.26.md) · sharding and resharding
+- [ ] [A05.27](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.27.md) · consistent/rendezvous hashing
+- [ ] [A05.28](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.28.md) · probabilistic cache admission
+- [ ] [A05.29](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.29.md) · queueing model and contention
+- [ ] [A05.30](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.30.md) · cost-aware scaling
+- [ ] [A05.31](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.31.md) · latency budgeting
+- [ ] [A05.32](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.32.md) · experiments, benchmarks and capacity envelopes
+- [ ] [A05.33](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.33.md) · failure headroom
+- [ ] [A05.34](01-architecture-A01-to-A20/A05-scalability-caching-performance/lessons/A05.34.md) · autoscaling interactions
