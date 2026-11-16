@@ -52,3 +52,5 @@ Prerequisite [A12 exit gate](../A12-search-rag-and-knowledge-systems/README.md#p
 - [Applied assessment](ASSESSMENT.md)
 
 Reproduce all labs and both project acceptance suites. Score at least 80% on a fresh set of questions, diagnose one unfamiliar failure, and repeat after a delay. Demonstrate the phase failure modes and defend the resource or trust boundaries with observed evidence.
+
+Continue with [A14 · Advanced LLMOps, Evaluation & Safety](../A14-advanced-llmops-evals-safety/README.md) after the applicable gates.

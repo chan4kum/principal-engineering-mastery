@@ -1,13 +1,13 @@
 # Principal Engineering Mastery
 
-![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A13-1f6feb)
+![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A20%20%2B%20M01--M03-1f6feb)
 ![Labs](https://img.shields.io/badge/labs-local--first-147d64)
 ![Python](https://img.shields.io/badge/python-3.12%2B-345f9c)
 ![License](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY--SA%204.0-555)
 
 **Understand → Calculate → Implement → Break → Repair → Rebuild → Teach → Retain**
 
-A practice-first curriculum for software, cloud and AI systems. Start with a diagnostic, then connect program behavior to OS evidence. Each A01–A13 lesson includes a trace, a runnable example, and a controlled alternative.
+A practice-first curriculum for software, cloud and AI systems. Start with a diagnostic, then connect program behavior to OS evidence. Each A01–A20 lesson includes a trace, a runnable example, and a controlled alternative.
 
 | Start here | What you'll do |
 | --- | --- |
@@ -25,6 +25,16 @@ A practice-first curriculum for software, cloud and AI systems. Start with a dia
 | [A11 Transformers, LLM Internals & Inference](01-architecture-A01-to-A20/A11-transformers-llm-internals/README.md) | Measure causal attention, cache footprints, and decoding |
 | [A12 Search, RAG & Knowledge Systems](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/README.md) | Compare retrieval rankings and enforce tenant boundaries |
 | [A13 Agentic AI, MCP & Workflow Orchestration](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/README.md) | Verify workflow state, approval, and replay-safe effects |
+| [A14 Advanced LLMOps, Evaluation & Safety](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/README.md) | Evaluate model releases and rehearse canary rollback |
+| [A15 Security, Privacy & Global-Scale Architecture](01-architecture-A01-to-A20/A15-security-privacy-global-scale/README.md) | Test identity, artifact integrity and tenant isolation |
+| [A16 System Design & Product-Company Interviews](01-architecture-A01-to-A20/A16-system-design-and-interviews/README.md) | Quantify system designs and preserve transactional invariants |
+| [A17 Regulated AI: Compliance, Safety & Governance](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/README.md) | Verify review, evidence and audit boundaries in regulated workflows |
+| [A18 Microsoft Foundry & Enterprise AI Platforms](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/README.md) | Compare cloud platform choices with mock tenancy, quota and routing controls |
+| [A19 Voice, Multimodal, Edge & Embedded AI](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/README.md) | Measure synthetic streaming audio and test offline fallback |
+| [A20 Forward-Deployed Engineering, Product & Leadership](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/README.md) | Translate discovery evidence into rollout and recovery decisions |
+| [M01 Sets and mathematical language](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/README.md) | Derive finite-set operations and measure cohort errors |
+| [M02 Logic and proof](02-mathematics-M01-to-M13/M02-logic-and-proof/README.md) | Practice proof, quantifier order and invariants |
+| [M03 Linear systems](02-mathematics-M01-to-M13/M03-linear-systems/README.md) | Solve linear systems and measure conditioning |
 | [Curriculum roadmap](ROADMAP.md#curriculum-index) | Inspect later tracks and their planned scope |
 | [Teaching contract](TEACHING_CONTRACT.md) | Pair with a tutor and preserve independent assessment |
 | [Progress tracker](PROGRESS_TRACKER.md) | Record evidence and schedule retrieval practice |
@@ -72,7 +82,7 @@ flowchart TD
     class s0 available
 ```
 
-Stage 1 includes A01. Stage 2 includes A02–A04. Stage 4 includes A05–A09. Stages 6–8 include A10–A13 and retain their earlier prerequisite gates. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
+Stage 1 includes A01. Stage 2 includes A02–A04. Stage 4 includes A05–A09. Stages 6–9 include A10–A20 and retain their earlier prerequisite gates. The mathematics track starts with M01–M03. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
 
 ### Curriculum by track
 
@@ -84,7 +94,7 @@ On a tablet, predict outputs and use the diagrams and collapsed answer sections.
 
 ## Source and design
 
-Lesson IDs and A01 titles follow the detailed *Principal Software, Cloud & AI Complete Mastery Roadmap* and the architecture index of *Principal AI Architect Master Roadmap v3*. The supplied standalone teaching contract and combined edition inform the learner and tutor protocol.
+Lesson IDs and titles follow the detailed *Principal Software, Cloud & AI Complete Mastery Roadmap* and the architecture index of *Principal AI Architect Master Roadmap v3*. The supplied standalone teaching contract and combined edition inform the learner and tutor protocol.
 
 Navigation, active recall, progressive builds and runnable projects were benchmarked against [The System Design Primer](https://github.com/donnemartin/system-design-primer), [Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero) and [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x).
 

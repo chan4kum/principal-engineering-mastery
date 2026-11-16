@@ -574,3 +574,300 @@ Keep machine-specific traces, file paths and identifiers in your local copy.
 - [ ] [A13.30](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.30.md) · policy enforcement
 - [ ] [A13.31](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.31.md) · evaluation of task success and side effects
 - [ ] [A13.32](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/lessons/A13.32.md) · supervision and rollback
+
+## A14 evidence
+
+- [ ] Reproduce the four labs for Advanced LLMOps, Evaluation & Safety
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [A14.01](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.01.md) · quality goals and ground truth
+- [ ] [A14.02](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.02.md) · deterministic vs probabilistic outputs
+- [ ] [A14.03](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.03.md) · offline vs online evaluation
+- [ ] [A14.04](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.04.md) · model and prompt versioning
+- [ ] [A14.05](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.05.md) · traces and token usage
+- [ ] [A14.06](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.06.md) · test datasets and golden sets
+- [ ] [A14.07](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.07.md) · retrieval vs generation evaluations
+- [ ] [A14.08](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.08.md) · groundedness and hallucination rates
+- [ ] [A14.09](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.09.md) · LLM judge calibration
+- [ ] [A14.10](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.10.md) · regression tests
+- [ ] [A14.11](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.11.md) · prompt/model registry
+- [ ] [A14.12](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.12.md) · eval in CI/CD
+- [ ] [A14.13](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.13.md) · model routing
+- [ ] [A14.14](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.14.md) · structured output validity
+- [ ] [A14.15](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.15.md) · cost and latency budgets
+- [ ] [A14.16](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.16.md) · streaming metrics
+- [ ] [A14.17](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.17.md) · experiment design
+- [ ] [A14.18](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.18.md) · human annotation
+- [ ] [A14.19](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.19.md) · A/B experiments and counterfactuals
+- [ ] [A14.20](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.20.md) · data flywheel and labeling
+- [ ] [A14.21](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.21.md) · observability taxonomies
+- [ ] [A14.22](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.22.md) · drift and feedback loops
+- [ ] [A14.23](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.23.md) · adversarial red-teaming
+- [ ] [A14.24](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.24.md) · quality/latency/cost Pareto
+- [ ] [A14.25](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.25.md) · rollback and guardrail failure paths
+- [ ] [A14.26](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.26.md) · serving capacity planning
+- [ ] [A14.27](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.27.md) · self-host/API economics
+- [ ] [A14.28](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/lessons/A14.28.md) · incident analysis and model governance
+
+## A15 evidence
+
+- [ ] Reproduce the four labs for Security, Privacy & Global-Scale Architecture
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [A15.01](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.01.md) · security objectives confidentiality/integrity/availability
+- [ ] [A15.02](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.02.md) · identity vs permission
+- [ ] [A15.03](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.03.md) · threat modeling
+- [ ] [A15.04](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.04.md) · encryption at rest/in transit
+- [ ] [A15.05](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.05.md) · secrets and trust boundaries
+- [ ] [A15.06](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.06.md) · OAuth/OIDC and JWT validation
+- [ ] [A15.07](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.07.md) · RBAC/ABAC/ReBAC
+- [ ] [A15.08](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.08.md) · row-level security
+- [ ] [A15.09](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.09.md) · tenant ID propagation
+- [ ] [A15.10](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.10.md) · document permissions
+- [ ] [A15.11](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.11.md) · encryption/KMS
+- [ ] [A15.12](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.12.md) · auditing
+- [ ] [A15.13](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.13.md) · retention and deletion
+- [ ] [A15.14](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.14.md) · policy-as-code
+- [ ] [A15.15](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.15.md) · PII handling
+- [ ] [A15.16](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.16.md) · network isolation
+- [ ] [A15.17](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.17.md) · rate limits and abuse protections
+- [ ] [A15.18](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.18.md) · OWASP application and AI threats
+- [ ] [A15.19](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.19.md) · data-residency requirements
+- [ ] [A15.20](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.20.md) · lawful processing and privacy assessments
+- [ ] [A15.21](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.21.md) · disaster recovery regions
+- [ ] [A15.22](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.22.md) · key rotation
+- [ ] [A15.23](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.23.md) · prompt injection and tool exfiltration
+- [ ] [A15.24](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.24.md) · retrieval data poison
+- [ ] [A15.25](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.25.md) · supply chain
+- [ ] [A15.26](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.26.md) · agent capabilities
+- [ ] [A15.27](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.27.md) · SOC2/ISO27001 controls as applicable
+- [ ] [A15.28](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.28.md) · cross-region replication
+- [ ] [A15.29](01-architecture-A01-to-A20/A15-security-privacy-global-scale/lessons/A15.29.md) · zero-trust architecture and secure migrations
+
+## A16 evidence
+
+- [ ] Reproduce the four labs for System Design & Product-Company Interviews
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [A16.01](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.01.md) · requirements discovery
+- [ ] [A16.02](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.02.md) · user stories
+- [ ] [A16.03](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.03.md) · functional vs nonfunctional
+- [ ] [A16.04](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.04.md) · back-of-envelope QPS/storage
+- [ ] [A16.05](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.05.md) · latency budgets
+- [ ] [A16.06](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.06.md) · architectural trade-offs
+- [ ] [A16.07](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.07.md) · SLOs and cost constraints
+- [ ] [A16.08](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.08.md) · API and schema design
+- [ ] [A16.09](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.09.md) · baseline single-machine design
+- [ ] [A16.10](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.10.md) · scale bottlenecks
+- [ ] [A16.11](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.11.md) · URL shortener
+- [ ] [A16.12](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.12.md) · rate limiter
+- [ ] [A16.13](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.13.md) · ticket booking
+- [ ] [A16.14](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.14.md) · payment
+- [ ] [A16.15](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.15.md) · messaging and notification
+- [ ] [A16.16](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.16.md) · feed
+- [ ] [A16.17](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.17.md) · search
+- [ ] [A16.18](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.18.md) · recommendation
+- [ ] [A16.19](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.19.md) · nearby search
+- [ ] [A16.20](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.20.md) · collaborative editor
+- [ ] [A16.21](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.21.md) · object storage
+- [ ] [A16.22](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.22.md) · file sync
+- [ ] [A16.23](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.23.md) · video upload and CDN
+- [ ] [A16.24](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.24.md) · live streaming and WebRTC
+- [ ] [A16.25](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.25.md) · geohash/H3/S2
+- [ ] [A16.26](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.26.md) · analytics sketches HLL/CMS/t-digest
+- [ ] [A16.27](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.27.md) · identity and audit
+- [ ] [A16.28](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.28.md) · migration design
+- [ ] [A16.29](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.29.md) · design failure injections
+- [ ] [A16.30](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.30.md) · live interview communication
+- [ ] [A16.31](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.31.md) · strong vs eventual consistency
+- [ ] [A16.32](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.32.md) · architecture decision records
+- [ ] [A16.33](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.33.md) · DSA-to-system-design transfer
+- [ ] [A16.34](01-architecture-A01-to-A20/A16-system-design-and-interviews/lessons/A16.34.md) · principal staff influence
+
+## A17 evidence
+
+- [ ] Reproduce the four labs for Regulated AI: Compliance, Safety & Governance
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [A17.01](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.01.md) · data types and sensitivity
+- [ ] [A17.02](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.02.md) · compliance vs engineering control
+- [ ] [A17.03](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.03.md) · identity and consent
+- [ ] [A17.04](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.04.md) · threat modeling
+- [ ] [A17.05](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.05.md) · clinical risk and human accountability
+- [ ] [A17.06](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.06.md) · GDPR/DSGVO basic obligations
+- [ ] [A17.07](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.07.md) · GoBD context
+- [ ] [A17.08](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.08.md) · ISO27001 scope and risk process
+- [ ] [A17.09](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.09.md) · consent and purpose limitation
+- [ ] [A17.10](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.10.md) · auditability
+- [ ] [A17.11](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.11.md) · data retention/deletion
+- [ ] [A17.12](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.12.md) · explainability, evidence and uncertainty
+- [ ] [A17.13](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.13.md) · human-in-the-loop gates
+- [ ] [A17.14](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.14.md) · safe escalation
+- [ ] [A17.15](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.15.md) · domain review
+- [ ] [A17.16](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.16.md) · approved data sources
+- [ ] [A17.17](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.17.md) · policy-as-code
+- [ ] [A17.18](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.18.md) · immutable/tamper-evident audit evidence
+- [ ] [A17.19](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.19.md) · access logs and key controls
+- [ ] [A17.20](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.20.md) · DPIA concept
+- [ ] [A17.21](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.21.md) · incident and breach playbooks
+- [ ] [A17.22](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.22.md) · decision provenance
+- [ ] [A17.23](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.23.md) · stakeholder review
+- [ ] [A17.24](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.24.md) · compliance test matrix
+- [ ] [A17.25](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.25.md) · safe deployment and continuous monitoring
+- [ ] [A17.26](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/lessons/A17.26.md) · healthcare risk scenarios
+
+## A18 evidence
+
+- [ ] Reproduce the four labs for Microsoft Foundry & Enterprise AI Platforms
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [A18.01](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.01.md) · cloud IAM/networking
+- [ ] [A18.02](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.02.md) · container app vs Kubernetes
+- [ ] [A18.03](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.03.md) · vector retrieval
+- [ ] [A18.04](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.04.md) · agent orchestration
+- [ ] [A18.05](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.05.md) · tenant identity
+- [ ] [A18.06](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.06.md) · pricing units
+- [ ] [A18.07](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.07.md) · Microsoft Foundry model catalog and deployments
+- [ ] [A18.08](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.08.md) · Azure OpenAI endpoints
+- [ ] [A18.09](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.09.md) · Foundry Agent Service
+- [ ] [A18.10](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.10.md) · Microsoft Agent Framework vs LangGraph
+- [ ] [A18.11](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.11.md) · Azure AI Search
+- [ ] [A18.12](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.12.md) · Container Apps vs AKS
+- [ ] [A18.13](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.13.md) · managed identities
+- [ ] [A18.14](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.14.md) · private endpoints
+- [ ] [A18.15](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.15.md) · network and secrets
+- [ ] [A18.16](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.16.md) · tenant-scoped indexes and retrieval
+- [ ] [A18.17](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.17.md) · managed evaluation and telemetry
+- [ ] [A18.18](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.18.md) · hosted vs self-hosted build-versus-buy
+- [ ] [A18.19](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.19.md) · tenant data planes
+- [ ] [A18.20](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.20.md) · isolation tests
+- [ ] [A18.21](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.21.md) · key management and residency
+- [ ] [A18.22](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.22.md) · cost allocation per tenant
+- [ ] [A18.23](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.23.md) · quotas and fairness
+- [ ] [A18.24](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.24.md) · managed vs custom lifecycle trade-offs
+- [ ] [A18.25](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.25.md) · migration and portability
+- [ ] [A18.26](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/lessons/A18.26.md) · provider outages and fallback design
+
+## A19 evidence
+
+- [ ] Reproduce the four labs for Voice, Multimodal, Edge & Embedded AI
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [A19.01](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.01.md) · audio signals and sampling rates
+- [ ] [A19.02](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.02.md) · waveform vs features
+- [ ] [A19.03](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.03.md) · speech input/output
+- [ ] [A19.04](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.04.md) · ASR and TTS
+- [ ] [A19.05](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.05.md) · latency budgets
+- [ ] [A19.06](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.06.md) · ARM architecture
+- [ ] [A19.07](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.07.md) · CPU vs DSP vs NPU vs GPU
+- [ ] [A19.08](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.08.md) · memory and power constraints
+- [ ] [A19.09](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.09.md) · streaming ASR
+- [ ] [A19.10](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.10.md) · Whisper/Azure Speech/Cerence comparisons
+- [ ] [A19.11](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.11.md) · ASR-LLM-TTS stages
+- [ ] [A19.12](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.12.md) · voice activity detection
+- [ ] [A19.13](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.13.md) · barge-in and interruption
+- [ ] [A19.14](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.14.md) · local model selection
+- [ ] [A19.15](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.15.md) · quantization
+- [ ] [A19.16](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.16.md) · pruning
+- [ ] [A19.17](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.17.md) · knowledge distillation
+- [ ] [A19.18](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.18.md) · device runtime formats
+- [ ] [A19.19](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.19.md) · cloud-edge routing
+- [ ] [A19.20](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.20.md) · offline fallback
+- [ ] [A19.21](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.21.md) · thermal/power budgets
+- [ ] [A19.22](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.22.md) · cross-compiler/toolchain
+- [ ] [A19.23](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.23.md) · memory-mapped weights
+- [ ] [A19.24](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.24.md) · hardware compatibility
+- [ ] [A19.25](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.25.md) · telemetry
+- [ ] [A19.26](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.26.md) · model updates and rollback
+- [ ] [A19.27](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.27.md) · safety-critical function boundaries
+- [ ] [A19.28](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.28.md) · audio noise robustness
+- [ ] [A19.29](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.29.md) · streaming benchmark
+- [ ] [A19.30](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.30.md) · automotive lifecycle and software supply chain
+- [ ] [A19.31](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/lessons/A19.31.md) · ROS2 and perception optional track
+
+## A20 evidence
+
+- [ ] Reproduce the four labs for Forward-Deployed Engineering, Product & Leadership
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [A20.01](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.01.md) · business discovery and workflows
+- [ ] [A20.02](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.02.md) · user journeys
+- [ ] [A20.03](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.03.md) · success metrics
+- [ ] [A20.04](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.04.md) · constraints
+- [ ] [A20.05](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.05.md) · MVP scoping
+- [ ] [A20.06](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.06.md) · stakeholder map
+- [ ] [A20.07](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.07.md) · user experience failure paths
+- [ ] [A20.08](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.08.md) · value hypothesis
+- [ ] [A20.09](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.09.md) · design thinking and product requirements
+- [ ] [A20.10](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.10.md) · prototyping and customer validation
+- [ ] [A20.11](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.11.md) · architecture strategy
+- [ ] [A20.12](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.12.md) · ADRs
+- [ ] [A20.13](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.13.md) · vendor evaluation
+- [ ] [A20.14](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.14.md) · integration contracts
+- [ ] [A20.15](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.15.md) · budgets
+- [ ] [A20.16](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.16.md) · delivery and sequencing
+- [ ] [A20.17](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.17.md) · Scrum/Kanban
+- [ ] [A20.18](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.18.md) · ownership and RACI
+- [ ] [A20.19](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.19.md) · code/design reviews
+- [ ] [A20.20](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.20.md) · mentoring
+- [ ] [A20.21](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.21.md) · principal technical authority
+- [ ] [A20.22](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.22.md) · escalations and trade-off negotiation
+- [ ] [A20.23](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.23.md) · customer-in-environment delivery
+- [ ] [A20.24](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.24.md) · technical roadmap and org-level standards
+- [ ] [A20.25](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.25.md) · responsible AI adoption
+- [ ] [A20.26](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.26.md) · ROI and value measurement
+- [ ] [A20.27](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.27.md) · reliability governance
+- [ ] [A20.28](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.28.md) · executive storytelling
+- [ ] [A20.29](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.29.md) · technology radar
+- [ ] [A20.30](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/lessons/A20.30.md) · cross-team architecture alignment
+
+## M01 evidence
+
+- [ ] Reproduce the four labs for Sets and mathematical language
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [M01.01](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.01.md) · number systems
+- [ ] [M01.02](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.02.md) · notation and operators
+- [ ] [M01.03](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.03.md) · membership
+- [ ] [M01.04](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.04.md) · set builder
+- [ ] [M01.05](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.05.md) · union/intersection/complement
+- [ ] [M01.06](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.06.md) · Cartesian products
+- [ ] [M01.07](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.07.md) · functions/domains
+- [ ] [M01.08](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/lessons/M01.08.md) · indicator functions
+
+## M02 evidence
+
+- [ ] Reproduce the four labs for Logic and proof
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [M02.01](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.01.md) · propositions
+- [ ] [M02.02](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.02.md) · predicates
+- [ ] [M02.03](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.03.md) · truth tables
+- [ ] [M02.04](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.04.md) · conditional/contrapositive
+- [ ] [M02.05](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.05.md) · quantifiers
+- [ ] [M02.06](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.06.md) · Boolean algebra
+- [ ] [M02.07](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.07.md) · proof by contradiction
+- [ ] [M02.08](02-mathematics-M01-to-M13/M02-logic-and-proof/lessons/M02.08.md) · induction and invariants
+
+## M03 evidence
+
+- [ ] Reproduce the four labs for Linear systems
+- [ ] Pass both project suites
+- [ ] Pass a fresh assessment and delayed retest
+
+- [ ] [M03.01](02-mathematics-M01-to-M13/M03-linear-systems/lessons/M03.01.md) · matrices as linear maps
+- [ ] [M03.02](02-mathematics-M01-to-M13/M03-linear-systems/lessons/M03.02.md) · simultaneous equations
+- [ ] [M03.03](02-mathematics-M01-to-M13/M03-linear-systems/lessons/M03.03.md) · Gaussian elimination
+- [ ] [M03.04](02-mathematics-M01-to-M13/M03-linear-systems/lessons/M03.04.md) · row rank
+- [ ] [M03.05](02-mathematics-M01-to-M13/M03-linear-systems/lessons/M03.05.md) · determinants
+- [ ] [M03.06](02-mathematics-M01-to-M13/M03-linear-systems/lessons/M03.06.md) · singularity
+- [ ] [M03.07](02-mathematics-M01-to-M13/M03-linear-systems/lessons/M03.07.md) · inverse and conditioning

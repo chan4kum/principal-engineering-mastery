@@ -70,7 +70,7 @@ AIC01-AIC03: prompt engineering, vibe/specification coding and loop/agentic codi
 
 ## Curriculum index
 
-Stage 0 and A01–A13 have material in this edition. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
+Stage 0, A01–A20 and M01–M03 have material in this edition. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
 
 ### Architecture
 
@@ -89,21 +89,21 @@ Stage 0 and A01–A13 have material in this edition. The remaining rows identify
 | A11 | Transformers, LLM Internals & Inference | [Available](01-architecture-A01-to-A20/A11-transformers-llm-internals/README.md) |
 | A12 | Search, RAG & Knowledge Systems | [Available](01-architecture-A01-to-A20/A12-search-rag-and-knowledge-systems/README.md) |
 | A13 | Agentic AI, MCP & Workflow Orchestration | [Available](01-architecture-A01-to-A20/A13-agentic-ai-mcp-orchestration/README.md) |
-| A14 | Advanced LLMOps, Evaluation & Safety | Planned |
-| A15 | Security, Privacy & Global-Scale Architecture | Planned |
-| A16 | System Design & Product-Company Interviews | Planned |
-| A17 | Regulated AI: Compliance, Safety & Governance | Planned |
-| A18 | Microsoft Foundry & Enterprise AI Platforms | Planned |
-| A19 | Voice, Multimodal, Edge & Embedded AI | Planned |
-| A20 | Forward-Deployed Engineering, Product & Leadership | Planned |
+| A14 | Advanced LLMOps, Evaluation & Safety | [Available](01-architecture-A01-to-A20/A14-advanced-llmops-evals-safety/README.md) |
+| A15 | Security, Privacy & Global-Scale Architecture | [Available](01-architecture-A01-to-A20/A15-security-privacy-global-scale/README.md) |
+| A16 | System Design & Product-Company Interviews | [Available](01-architecture-A01-to-A20/A16-system-design-and-interviews/README.md) |
+| A17 | Regulated AI: Compliance, Safety & Governance | [Available](01-architecture-A01-to-A20/A17-regulated-ai-compliance-governance/README.md) |
+| A18 | Microsoft Foundry & Enterprise AI Platforms | [Available](01-architecture-A01-to-A20/A18-microsoft-foundry-enterprise-ai/README.md) |
+| A19 | Voice, Multimodal, Edge & Embedded AI | [Available](01-architecture-A01-to-A20/A19-voice-multimodal-edge-embedded-ai/README.md) |
+| A20 | Forward-Deployed Engineering, Product & Leadership | [Available](01-architecture-A01-to-A20/A20-forward-deployed-product-leadership/README.md) |
 
 ### Mathematics
 
 | ID | Topic | Status |
 | --- | --- | --- |
-| M01 | Sets and mathematical language | Planned |
-| M02 | Logic and proof | Planned |
-| M03 | Linear systems | Planned |
+| M01 | Sets and mathematical language | [Available](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/README.md) |
+| M02 | Logic and proof | [Available](02-mathematics-M01-to-M13/M02-logic-and-proof/README.md) |
+| M03 | Linear systems | [Available](02-mathematics-M01-to-M13/M03-linear-systems/README.md) |
 | M04 | Vector spaces | Planned |
 | M05 | Spectral methods | Planned |
 | M06 | Projections | Planned |
