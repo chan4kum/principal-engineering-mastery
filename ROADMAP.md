@@ -70,7 +70,7 @@ AIC01-AIC03: prompt engineering, vibe/specification coding and loop/agentic codi
 
 ## Curriculum index
 
-Stage 0, A01–A20 and M01–M03 have material in this edition. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
+Stage 0 and A01–A20 have lesson material. M01–M03 have lessons, labs, and projects. M04–M13 have guided walkthroughs with runnable numerical checks. The remaining rows identify planned study by source ID. The inference crosswalk pairs the detailed roadmap's I00–I30 with the repository plan's 100–130.
 
 ### Architecture
 
@@ -104,16 +104,16 @@ Stage 0, A01–A20 and M01–M03 have material in this edition. The remaining ro
 | M01 | Sets and mathematical language | [Available](02-mathematics-M01-to-M13/M01-sets-and-mathematical-language/README.md) |
 | M02 | Logic and proof | [Available](02-mathematics-M01-to-M13/M02-logic-and-proof/README.md) |
 | M03 | Linear systems | [Available](02-mathematics-M01-to-M13/M03-linear-systems/README.md) |
-| M04 | Vector spaces | Planned |
-| M05 | Spectral methods | Planned |
-| M06 | Projections | Planned |
-| M07 | Low rank and SVD | Planned |
-| M08 | ML math applications | Planned |
-| M09 | Calculus and optimization | Planned |
-| M10 | Probability | Planned |
-| M11 | Joint random variables | Planned |
-| M12 | Statistical inference | Planned |
-| M13 | Information theory and deep learning | Planned |
+| M04 | Vector spaces | [Walkthrough](02-mathematics-M01-to-M13/M04-vector-spaces/README.md) |
+| M05 | Spectral methods | [Walkthrough](02-mathematics-M01-to-M13/M05-spectral-methods/README.md) |
+| M06 | Projections | [Walkthrough](02-mathematics-M01-to-M13/M06-projections/README.md) |
+| M07 | Matrix decompositions and PCA | [Walkthrough](02-mathematics-M01-to-M13/M07-matrix-decompositions-and-pca/README.md) |
+| M08 | Regression and optimization | [Walkthrough](02-mathematics-M01-to-M13/M08-regression-and-optimization/README.md) |
+| M09 | Calculus and optimization | [Walkthrough](02-mathematics-M01-to-M13/M09-calculus-and-optimization/README.md) |
+| M10 | Probability | [Walkthrough](02-mathematics-M01-to-M13/M10-probability/README.md) |
+| M11 | Joint random variables | [Walkthrough](02-mathematics-M01-to-M13/M11-joint-random-variables/README.md) |
+| M12 | Statistical inference | [Walkthrough](02-mathematics-M01-to-M13/M12-statistical-inference/README.md) |
+| M13 | Information theory and deep learning | [Walkthrough](02-mathematics-M01-to-M13/M13-information-theory-and-deep-learning/README.md) |
 
 ### Data structures and algorithms
 

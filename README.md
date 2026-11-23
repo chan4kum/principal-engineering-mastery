@@ -82,7 +82,7 @@ flowchart TD
     class s0 available
 ```
 
-Stage 1 includes A01. Stage 2 includes A02–A04. Stage 4 includes A05–A09. Stages 6–9 include A10–A20 and retain their earlier prerequisite gates. The mathematics track starts with M01–M03. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
+Stage 1 includes A01. Stage 2 includes A02–A04. Stage 4 includes A05–A09. Stages 6–9 include A10–A20 and retain their earlier prerequisite gates. The [mathematics track](02-mathematics-M01-to-M13/README.md) has guided walkthroughs from M01 through M13. See the [roadmap](ROADMAP.md) for stage gates and the [curriculum index](ROADMAP.md#curriculum-index) for coverage by track.
 
 ### Curriculum by track
 
