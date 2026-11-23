@@ -1,0 +1,65 @@
+[
+  {
+    "name": "balanced predictions",
+    "input": {
+      "probabilities": [
+        0.2,
+        0.8
+      ],
+      "outcomes": [
+        0,
+        1
+      ]
+    },
+    "expected": {
+      "brier": 0.04,
+      "gap": 0.0
+    }
+  },
+  {
+    "name": "small bin",
+    "input": {
+      "probabilities": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "outcomes": [
+        1,
+        1,
+        0
+      ]
+    },
+    "expected": {
+      "brier": 0.22333333333333333,
+      "gap": 0.03333333333333333
+    }
+  },
+  {
+    "name": "empty cohort",
+    "input": {
+      "probabilities": [],
+      "outcomes": []
+    },
+    "expected": {
+      "status": "invalid"
+    }
+  },
+  {
+    "name": "perfect boundary forecasts",
+    "input": {
+      "probabilities": [
+        0,
+        1
+      ],
+      "outcomes": [
+        0,
+        1
+      ]
+    },
+    "expected": {
+      "brier": 0.0,
+      "gap": 0.0
+    }
+  }
+]

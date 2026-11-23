@@ -1,0 +1,73 @@
+[
+  {
+    "name": "regularized fit",
+    "input": {
+      "x": [
+        1,
+        2
+      ],
+      "y": [
+        3,
+        6
+      ],
+      "penalty": 5
+    },
+    "expected": {
+      "weight": 1.5,
+      "objective": 22.5
+    }
+  },
+  {
+    "name": "zero feature with positive penalty",
+    "input": {
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        2,
+        3
+      ],
+      "penalty": 1
+    },
+    "expected": {
+      "weight": 0.0,
+      "objective": 13.0
+    }
+  },
+  {
+    "name": "unidentifiable",
+    "input": {
+      "x": [
+        0,
+        0
+      ],
+      "y": [
+        2,
+        3
+      ],
+      "penalty": 0
+    },
+    "expected": {
+      "status": "invalid"
+    }
+  },
+  {
+    "name": "unregularized recovery",
+    "input": {
+      "x": [
+        1,
+        2
+      ],
+      "y": [
+        3,
+        6
+      ],
+      "penalty": 0
+    },
+    "expected": {
+      "weight": 3.0,
+      "objective": 0.0
+    }
+  }
+]

@@ -16,6 +16,6 @@ The guided walkthroughs follow all 87 topic IDs in the source roadmap. Work the 
 - [M12 · Statistical inference](M12-statistical-inference/README.md)
 - [M13 · Information theory and deep learning](M13-information-theory-and-deep-learning/README.md)
 
-M01–M03 include existing lesson files, drills, labs, and projects. M04–M13 include a walkthrough for every indexed topic and one runnable NumPy example per module. Use the progress tracker to record learner evidence.
+Each module includes numerical drills, four labs, a guided worksheet and verification notebook, an independent project, and an applied assessment. M04–M13 use the shared verifier documented in their labs and project pages. Use the [progress tracker](../PROGRESS_TRACKER.md) to record learner evidence.
 
 From the repository root, use `uv run --locked --extra math python` to open a Python interpreter with NumPy.

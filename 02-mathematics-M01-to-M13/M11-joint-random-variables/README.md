@@ -28,4 +28,17 @@ np.testing.assert_allclose(weights @ correlated @ weights, 3.0)
 np.testing.assert_allclose(weights @ np.eye(2) @ weights, 2.0)
 ```
 
+## Practice and exit gate
+
+- [L1 · Manual calculation](labs/L1.md)
+- [L2 · NumPy verification](labs/L2.md)
+- [L3 · Parameter sweep](labs/L3.md)
+- [L4 · ML transfer](labs/L4.md)
+- [Numerical drills](DRILLS.md)
+- [Guided numerical worksheet and notebook](projects/guided/README.md)
+- [Independent ML transfer project](projects/independent/README.md)
+- [Applied assessment](ASSESSMENT.md)
+
+Complete the drills, reproduce all four labs, and provide evidence for both projects. Score at least 80% on fresh assessment cases, diagnose an unfamiliar failure, and repeat the assessment after a delay.
+
 [Previous · M10 Probability](../M10-probability/README.md) · [Next · M12 Statistical inference](../M12-statistical-inference/README.md)

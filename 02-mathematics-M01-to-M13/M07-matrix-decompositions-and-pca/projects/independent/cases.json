@@ -1,0 +1,83 @@
+[
+  {
+    "name": "rank one",
+    "input": {
+      "matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": {
+      "error": 2.0,
+      "scalars": 5
+    }
+  },
+  {
+    "name": "zero rank",
+    "input": {
+      "matrix": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "k": 0
+    },
+    "expected": {
+      "error": 5.0,
+      "scalars": 0
+    }
+  },
+  {
+    "name": "invalid rank",
+    "input": {
+      "matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "k": 3
+    },
+    "expected": {
+      "status": "invalid"
+    }
+  },
+  {
+    "name": "full rank recovery",
+    "input": {
+      "matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "k": 2
+    },
+    "expected": {
+      "error": 0.0,
+      "scalars": 12
+    }
+  }
+]

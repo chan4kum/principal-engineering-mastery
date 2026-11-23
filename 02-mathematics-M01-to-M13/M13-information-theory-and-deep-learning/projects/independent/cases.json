@@ -1,0 +1,66 @@
+[
+  {
+    "name": "equal large logits",
+    "input": {
+      "logits": [
+        1000,
+        1000,
+        1000
+      ],
+      "target": 1
+    },
+    "expected": {
+      "probabilities": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "loss": 1.0986122886681098
+    }
+  },
+  {
+    "name": "single class",
+    "input": {
+      "logits": [
+        -5
+      ],
+      "target": 0
+    },
+    "expected": {
+      "probabilities": [
+        1.0
+      ],
+      "loss": 0.0
+    }
+  },
+  {
+    "name": "invalid target",
+    "input": {
+      "logits": [
+        0,
+        1
+      ],
+      "target": 2
+    },
+    "expected": {
+      "status": "invalid"
+    }
+  },
+  {
+    "name": "very unlikely target",
+    "input": {
+      "logits": [
+        1000,
+        -1000
+      ],
+      "target": 1
+    },
+    "expected": {
+      "probabilities": [
+        1.0,
+        0.0
+      ],
+      "loss": 2000.0
+    }
+  }
+]

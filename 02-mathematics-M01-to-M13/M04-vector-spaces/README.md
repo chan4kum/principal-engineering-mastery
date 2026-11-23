@@ -35,4 +35,17 @@ np.testing.assert_array_equal(matrix @ direction, [0, 1])
 assert np.linalg.matrix_rank(matrix) == 2
 ```
 
+## Practice and exit gate
+
+- [L1 · Manual calculation](labs/L1.md)
+- [L2 · NumPy verification](labs/L2.md)
+- [L3 · Parameter sweep](labs/L3.md)
+- [L4 · ML transfer](labs/L4.md)
+- [Numerical drills](DRILLS.md)
+- [Guided numerical worksheet and notebook](projects/guided/README.md)
+- [Independent ML transfer project](projects/independent/README.md)
+- [Applied assessment](ASSESSMENT.md)
+
+Complete the drills, reproduce all four labs, and provide evidence for both projects. Score at least 80% on fresh assessment cases, diagnose an unfamiliar failure, and repeat the assessment after a delay.
+
 [Previous · M03 Linear systems](../M03-linear-systems/README.md) · [Next · M05 Spectral methods](../M05-spectral-methods/README.md)

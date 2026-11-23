@@ -1,0 +1,48 @@
+[
+  {
+    "name": "mixed population",
+    "input": {
+      "prevalence": 0.2,
+      "sensitivity": 0.75,
+      "false_positive_rate": 0.25
+    },
+    "expected": {
+      "positive_rate": 0.35,
+      "ppv": 0.42857142857142855
+    }
+  },
+  {
+    "name": "zero positives",
+    "input": {
+      "prevalence": 0,
+      "sensitivity": 1,
+      "false_positive_rate": 0
+    },
+    "expected": {
+      "status": "undefined"
+    }
+  },
+  {
+    "name": "probability out of range",
+    "input": {
+      "prevalence": 1.1,
+      "sensitivity": 0.75,
+      "false_positive_rate": 0.25
+    },
+    "expected": {
+      "status": "invalid"
+    }
+  },
+  {
+    "name": "all positives true",
+    "input": {
+      "prevalence": 1,
+      "sensitivity": 0.75,
+      "false_positive_rate": 0.25
+    },
+    "expected": {
+      "positive_rate": 0.75,
+      "ppv": 1.0
+    }
+  }
+]

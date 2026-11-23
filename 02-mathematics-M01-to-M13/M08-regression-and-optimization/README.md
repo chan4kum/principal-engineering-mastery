@@ -33,4 +33,17 @@ np.testing.assert_allclose(steps, [0.6, 6.0])
 np.testing.assert_allclose(objective(steps), [6.48, 81.0])
 ```
 
+## Practice and exit gate
+
+- [L1 · Manual calculation](labs/L1.md)
+- [L2 · NumPy verification](labs/L2.md)
+- [L3 · Parameter sweep](labs/L3.md)
+- [L4 · ML transfer](labs/L4.md)
+- [Numerical drills](DRILLS.md)
+- [Guided numerical worksheet and notebook](projects/guided/README.md)
+- [Independent ML transfer project](projects/independent/README.md)
+- [Applied assessment](ASSESSMENT.md)
+
+Complete the drills, reproduce all four labs, and provide evidence for both projects. Score at least 80% on fresh assessment cases, diagnose an unfamiliar failure, and repeat the assessment after a delay.
+
 [Previous · M07 Matrix decompositions and PCA](../M07-matrix-decompositions-and-pca/README.md) · [Next · M09 Calculus and optimization](../M09-calculus-and-optimization/README.md)

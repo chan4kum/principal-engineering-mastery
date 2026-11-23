@@ -1,0 +1,90 @@
+[
+  {
+    "name": "correlated errors",
+    "input": {
+      "weights": [
+        1,
+        2
+      ],
+      "covariance": [
+        [
+          1,
+          0.25
+        ],
+        [
+          0.25,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "variance": 10.0
+    }
+  },
+  {
+    "name": "singular covariance",
+    "input": {
+      "weights": [
+        1,
+        -1
+      ],
+      "covariance": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "variance": 0.0
+    }
+  },
+  {
+    "name": "negative eigenvalue",
+    "input": {
+      "weights": [
+        1,
+        1
+      ],
+      "covariance": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    "expected": {
+      "status": "invalid"
+    }
+  },
+  {
+    "name": "independent recovery",
+    "input": {
+      "weights": [
+        1,
+        2
+      ],
+      "covariance": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "expected": {
+      "variance": 9.0
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "oblique vectors",
+    "input": {
+      "q": [
+        3,
+        1
+      ],
+      "v": [
+        2,
+        0
+      ]
+    },
+    "expected": {
+      "cosine": 0.9486832980505138,
+      "projection": [
+        3.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "orthogonal",
+    "input": {
+      "q": [
+        0,
+        2
+      ],
+      "v": [
+        1,
+        0
+      ]
+    },
+    "expected": {
+      "cosine": 0.0,
+      "projection": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "name": "zero vector",
+    "input": {
+      "q": [
+        0,
+        0
+      ],
+      "v": [
+        1,
+        0
+      ]
+    },
+    "expected": {
+      "status": "invalid"
+    }
+  },
+  {
+    "name": "opposite direction",
+    "input": {
+      "q": [
+        -2,
+        0
+      ],
+      "v": [
+        1,
+        0
+      ]
+    },
+    "expected": {
+      "cosine": -1.0,
+      "projection": [
+        -2.0,
+        0.0
+      ]
+    }
+  }
+]

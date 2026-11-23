@@ -1,6 +1,6 @@
 # Principal Engineering Mastery
 
-![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A20%20%2B%20M01--M03-1f6feb)
+![Coverage](https://img.shields.io/badge/curriculum-Stage%200%20%2B%20A01--A20%20%2B%20M01--M13-1f6feb)
 ![Labs](https://img.shields.io/badge/labs-local--first-147d64)
 ![Python](https://img.shields.io/badge/python-3.12%2B-345f9c)
 ![License](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY--SA%204.0-555)

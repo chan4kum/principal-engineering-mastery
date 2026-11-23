@@ -38,4 +38,17 @@ for step_size, expected_loss in [(0.2, 0.0), (1.0, 40.0)]:
     np.testing.assert_allclose(0.5 * (residual @ residual), expected_loss)
 ```
 
+## Practice and exit gate
+
+- [L1 · Manual calculation](labs/L1.md)
+- [L2 · NumPy verification](labs/L2.md)
+- [L3 · Parameter sweep](labs/L3.md)
+- [L4 · ML transfer](labs/L4.md)
+- [Numerical drills](DRILLS.md)
+- [Guided numerical worksheet and notebook](projects/guided/README.md)
+- [Independent ML transfer project](projects/independent/README.md)
+- [Applied assessment](ASSESSMENT.md)
+
+Complete the drills, reproduce all four labs, and provide evidence for both projects. Score at least 80% on fresh assessment cases, diagnose an unfamiliar failure, and repeat the assessment after a delay.
+
 [Previous · M08 Regression and optimization](../M08-regression-and-optimization/README.md) · [Next · M10 Probability](../M10-probability/README.md)
