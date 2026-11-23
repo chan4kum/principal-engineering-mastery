@@ -20,6 +20,8 @@ Next checkpoint:
 ## A01 lesson evidence
 
 - [ ] [A01.01](01-architecture-A01-to-A20/A01-computer-systems-and-os/lessons/A01.01.md) · binary and units
+  - 2026-11-23 · Tutor reproduced the local demo using `uv run --no-sync python` with the lesson example. Normal mode reported `85.90 seconds`, `--break` reported `10.74 seconds`, and returning to normal mode restored `85.90 seconds`. The learner’s lab reproduction and checkpoint are pending.
+  - Checkpoint · For 384 MiB at 96 Mb/s, calculate the ideal time and the result if the estimator treats `96,000,000` as bytes/s. Show the unit cancellation.
 - [ ] [A01.02](01-architecture-A01-to-A20/A01-computer-systems-and-os/lessons/A01.02.md) · bits/bytes/words
 - [ ] [A01.03](01-architecture-A01-to-A20/A01-computer-systems-and-os/lessons/A01.03.md) · signed integer encoding
 - [ ] [A01.04](01-architecture-A01-to-A20/A01-computer-systems-and-os/lessons/A01.04.md) · CPU instruction sets
