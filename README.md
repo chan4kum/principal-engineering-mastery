@@ -90,6 +90,8 @@ Stage 1 includes A01. Stage 2 includes A02–A04. Stage 4 includes A05–A09. St
 
 ## How to study
 
+Each architecture module from A01 through A20 has a **Guided walkthrough** in lesson order. Use it to follow the concepts, then open the individual lessons and labs for runnable examples and mastery evidence.
+
 On a tablet, predict outputs and use the diagrams and collapsed answer sections. On a laptop, compare normal and failure modes and save the exact command, result and repair. Choose sessions of 15–90 minutes and work on one active concept at a time. Give your AI tutor the contract and the current tracker entry when resuming.
 
 ## Source and design
